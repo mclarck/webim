@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  webim:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: webim
+    volumes:
+      - ./:/var/www/
+      - ./public:/var/www/html
+    restart: always
+    ports:
+      - 80:80
+    expose:
+      - 80
+volumes:
+  webim:

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf vendor var *.lock migrations/*.php
+symfony console cache:clear
