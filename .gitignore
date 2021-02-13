@@ -21,4 +21,5 @@ migrations/*.php
 .vscode
 ###> docker
 mysql
+*.log
 
