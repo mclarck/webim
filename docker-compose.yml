@@ -6,8 +6,7 @@ services:
       dockerfile: Dockerfile
     container_name: webim
     volumes:
-      - ./:/var/www/
-      - ./public:/var/www/html
+      - ./:/var/www/html 
     restart: always
     ports:
       - 80:80

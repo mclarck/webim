@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+symfony console cache:clear
